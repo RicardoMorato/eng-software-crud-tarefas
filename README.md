@@ -38,3 +38,25 @@ Por fim, rode:
 Em alguns segundos, você deve ver uma mensagem como no print abaixo:
 
 ![image](https://github.com/user-attachments/assets/72c4ee4d-5c68-4f24-880a-8cee14c12619)
+
+## Como testar o projeto
+
+### Testes manuais
+
+Na raiz do projeto, você encontrará uma [coleção Postman](https://github.com/RicardoMorato/eng-software-crud-tarefas/blob/main/Desafio%20Backend%20-%20Engenharia%20de%20Software.postman_collection.json) contendo todas as operações possíveis de serem realizadas. Para informações em como importar essa coleção em seu Workspace local, por favor, confira [Data import and export in Postman](https://learning.postman.com/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/).
+
+### Testes automatizados
+
+As principais ações dentro do projeto foram modularizadas em `use_cases`, esses, por sua vez, possuem arquivos de teste em `tarefas/tests/use_cases/`, para rodar os testes automatizados, faça:
+
+#### Docker
+
+`docker compose run django-web pytest`
+
+#### Localmente
+
+`pytest`
+
+O resultado deve ser o mesmo para ambos, como no print abaixo:
+
+![image](https://github.com/user-attachments/assets/3ba1b235-c696-4c82-bbe7-0a6eea0531e4)
