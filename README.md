@@ -6,8 +6,8 @@ O intuito foi fazer um CRUD (Create, Read, Update and Delete) simples de tarefas
 
 ## Sumário
 
-## 1. [Como rodar o projeto](https://github.com/RicardoMorato/eng-software-crud-tarefas/edit/main/README.md#como-rodar-o-projeto)
-   - 1.1. [Pré-requisitos](https://github.com/RicardoMorato/eng-software-crud-tarefas/edit/main/README.md#pr%C3%A9-requisitos)
+## 1. [Como rodar o projeto](#como-rodar-o-projeto)
+   - 1.1. [Pré-requisitos](#pr%C3%A9-requisitos)
    - 1.2. [Rodando com Docker](#rodando-com-docker)
    - 1.3. [Rodando localmente](#rodando-localmente)
 
