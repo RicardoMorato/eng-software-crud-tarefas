@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "84ab3ff4-2a17-42cc-85bf-f6d50a843942",
+		"name": "Desafio Backend - Engenharia de Software",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9645067"
+	},
+	"item": [
+		{
+			"name": "Listar Tarefas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/tarefas/?status=pendente",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"tarefas",
+						""
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "pendente"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Tarefa Específica",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/tarefas/6",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"tarefas",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Criar Tarefas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"titulo\": \"Minha Segunda Tarefa\",\n    \"descricao\": \"\",\n    \"data_vencimento\": \"2025-01-01\",\n    \"status\": \"pendente\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/tarefas/",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"tarefas",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Tarefa",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"titulo\": \"Minha Segunda Tarefa\",\n    \"descricao\": \"\",\n    \"data_vencimento\": \"2025-01-01\",\n    \"status\": \"concluida\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/tarefas/4",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"tarefas",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Tarefa",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"titulo\": \"Minha Segunda Tarefa\",\n    \"descricao\": \"\",\n    \"data_vencimento\": \"2025-01-01\",\n    \"status\": \"concluida\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/tarefas/6",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"tarefas",
+						"6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
