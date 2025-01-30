@@ -4,6 +4,17 @@ Esse repositório é uma atividade da disciplina de Engenharia de Software do cu
 
 O intuito foi fazer um CRUD (Create, Read, Update and Delete) simples de tarefas utilizando Django como backend e PostgreSQL como banco de dados.
 
+## Sumário
+
+## 1. [Como rodar o projeto](https://github.com/RicardoMorato/eng-software-crud-tarefas/edit/main/README.md#como-rodar-o-projeto)
+   - 1.1. [Pré-requisitos](https://github.com/RicardoMorato/eng-software-crud-tarefas/edit/main/README.md#pr%C3%A9-requisitos)
+   - 1.2. [Rodando com Docker](#rodando-com-docker)
+   - 1.3. [Rodando localmente](#rodando-localmente)
+
+## 2. [Como testar o projeto](#como-testar-o-projeto)
+   - 2.1. [Testes manuais](#testes-manuais)
+   - 2.2. [Testes automatizados](#testes-automatizados)
+
 ## Como rodar o projeto
 
 ### Pré-requisitos
